@@ -1,0 +1,69 @@
+
+body{
+    background-color: #F2E9D8;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar a{
+    margin-left: 20px;
+    text-decoration:none;
+    color:#734930;
+    padding: 15px;
+    position: relative;
+    top: -20px;
+}
+
+.signin{
+    position: relative;
+    top: -20px
+}
+
+.drummerspic{
+    width: 627px;
+    height: 357px;
+}
+
+table{
+    margin: auto;
+    width: 1144px;
+}
+
+.drummerspic{
+    padding-top: 180px;
+    padding-right: 390px;
+}
+
+.emojiboy1{
+    position: absolute;
+    width: 563px;
+    height: 460px;
+    left: 1033px;
+    top: 167px;
+}
+.slogan{
+    text-align:center;
+    font-size: 48px;
+    color: #734930;
+    font-weight: bold;
+}
+.sloganToday{
+    position: relative;
+    text-align: center;
+    font-size: 48px;
+    color: #8A8C3F;
+    font-weight: bold;
+    top: -40px;
+}
+.classslogan{
+    position: relative;
+    top: -410px;
+    left: 328px;
+}
+.biglogo{
+    position: absolute;
+    width: 573px;
+    height: 150px;
+    left: 673px;
+    top: 596px;
+    
+}
