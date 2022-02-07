@@ -1,69 +1,89 @@
 
 body{
     background-color: #F2E9D8;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Montserrat', serif;
 }
 
-.navbar a{
-    margin-left: 20px;
-    text-decoration:none;
-    color:#734930;
-    padding: 15px;
+.main{
+ position: relative;
+ align-content: center;
+}
+
+.main__navigation{
+padding-top: 10px;
+margin-left: auto;
+margin-right: auto;
+width: 1200px;
+text-align:center;
+height: 90px;
+
+
+
+}
+
+
+
+.main__navigation-item{
     position: relative;
-    top: -20px;
+    text-decoration: none;
+    color: #654A31 ;
+    padding-left: 20px;
+    margin-top: auto;
+    font-size: 17px;
+    top: -24px;
+    transition-duration: 0.1s;
+}
+.main__navigation-item:hover{
+    transform: scaleX(1.1);
+    transform: scaleY(1.1)
+
 }
 
-.signin{
+.main__navigation-signin{
     position: relative;
-    top: -20px
+    text-decoration: none;
+    color: #654A31 ;
+    padding-left: 100px;
+    top: -24px;
+
 }
 
-.drummerspic{
-    width: 627px;
-    height: 357px;
+.main__navigation-register{
+    position: relative;
+    top: -24px;
+    left: 25px;
+    border-radius: 23px ;
+    padding: 12px 20px;
+    font-size: 14px;
+    border: none;
+    background-color: #8A8C3F;
+    color: #fff;
+    transition-duration: 0.5s;
+    font-family: 'Montserrat', serif;
 }
 
-table{
-    margin: auto;
-    width: 1144px;
+.main__navigation-register:hover{
+    background-color:#654A31;
+    color: #fff;
+    transform: scaleX(1.1);
+    transform: scaleY(1.1);
+
 }
 
-.drummerspic{
-    padding-top: 180px;
-    padding-right: 390px;
+.main__firstp{
+margin-left: auto;
+margin-right: auto;
+width: 1200px;
+padding-top: 50px;
 }
 
-.emojiboy1{
-    position: absolute;
+.main__firstp-drummers{
+    position: relative;
+    padding-left: 70px;
+    padding-top: 20px;
+}
+
+.main__firstp-boy{
     width: 563px;
-    height: 460px;
-    left: 1033px;
-    top: 167px;
-}
-.slogan{
-    text-align:center;
-    font-size: 48px;
-    color: #734930;
-    font-weight: bold;
-}
-.sloganToday{
-    position: relative;
-    text-align: center;
-    font-size: 48px;
-    color: #8A8C3F;
-    font-weight: bold;
-    top: -40px;
-}
-.classslogan{
-    position: relative;
-    top: -410px;
-    left: 328px;
-}
-.biglogo{
-    position: absolute;
-    width: 573px;
-    height: 150px;
-    left: 673px;
-    top: 596px;
-    
+    height:460px;
 }
