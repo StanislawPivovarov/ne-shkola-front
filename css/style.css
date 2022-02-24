@@ -1,0 +1,162 @@
+
+body{
+    background-color: #F2E9D8;
+    font-family: 'Montserrat', serif;
+}
+
+.main{
+ position: relative;
+ align-content: center;
+}
+
+
+.main__navigation{
+padding-top: 30px;
+margin-left: auto;
+margin-right: auto;
+width: 1200px;
+text-align:center;
+height: 90px;
+}
+
+
+
+.main__navigation-item{
+    position: relative;
+    text-decoration: none;
+    color: #654A31 ;
+    padding-left: 80px;
+    margin-top: auto;
+    font-size: 17px; 
+    transition-duration: 0.1s;
+}
+.main__navigation-item:hover{
+    transform: scaleX(1.1);
+    transform: scaleY(1.1)
+
+}
+
+.main__navigation-signin{
+    position: relative;
+    text-decoration: none;
+    color: #654A31 ;
+    padding-left: 100px;
+
+}
+
+.main__navigation-register{
+    position: relative;
+    left: 25px;
+    border-radius: 23px ;
+    padding: 12px 20px;
+    font-size: 14px;
+    border: none;
+    background-color: #8A8C3F;
+    color: #fff;
+    transition-duration: 0.5s;
+    font-family: 'Montserrat', serif;
+}
+
+.main__navigation-register:hover{
+    background-color:#654A31;
+    color: #fff;
+    transform: scaleX(1.1);
+    transform: scaleY(1.1);
+
+}
+
+.main__firstp{
+margin-left: auto;
+margin-right: auto;
+width: 1200px;
+
+}
+
+.main__firstp-drummers{
+    position: relative;
+    padding-left: 70px;
+    padding-top: 20px;
+}
+
+.main__firstp-boy{
+    width: 563px;
+    height:460px;
+}
+
+.main__firstp-logo{
+    position: absolute;
+    
+}
+
+.main__firstp-slogan{
+    position: relative;
+    padding-left: 700px;
+    top: -300px;
+    text-align: center;
+    font-size: 40px;
+    color: #654A31;
+
+}
+.main__firstp-big-slogan{
+    position: relative;
+    padding-left: 700px;
+    top: -300px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #8A8C3F;
+}
+
+.main__firstp-letsgo{
+    position: relative;
+    border: none;
+    background-color: #8A8C3F;
+    color: #fff;
+    transition-duration: 0.5s;
+    font-family: 'Montserrat', serif;
+    padding: 24px 40px;
+    font-size: 40px;
+    border-radius: 30px ;
+    top: -200px;
+    left: 500px
+}
+.main__firstp-letsgo:hover{
+    background-color:#654A31;
+    color: #fff;
+    transform: scaleX(1.1);
+    transform: scaleY(1.1);
+}
+.main__secp{
+margin-left: auto;
+margin-right: auto;
+width: 1200px;
+}
+
+.main__secp-header{
+    position: relative;
+    top: 100px;
+    font-size: 50px;
+    color:#654A31 ;
+    font-weight: bold;
+    text-align: center;
+}
+
+.main__secp-bubble1{
+    position: relative;
+    text-align: center;
+    top: 125px;
+    font-size: 30px;
+}
+.main__secp-bubble2{
+    position: relative;
+    text-align: center;
+    top: 225px;
+    font-size: 30px;
+}
+.main__secp-bubble3{
+    position: relative;
+    text-align: center;
+    top: 325px;
+    font-size: 30px;
+}
